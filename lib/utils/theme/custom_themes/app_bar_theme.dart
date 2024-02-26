@@ -5,7 +5,7 @@ class MyAppAppBarTheme{
 
   /// --- light appbar ---
 
-  AppBarTheme lightAppBar = const AppBarTheme(
+  static AppBarTheme lightAppBar = const AppBarTheme(
     elevation: 0,
     centerTitle: true,
     backgroundColor: Colors.transparent,
@@ -27,7 +27,7 @@ class MyAppAppBarTheme{
   );
 
   /// --- dark appbar ---
-  AppBarTheme darkAppBar = const AppBarTheme(
+  static AppBarTheme darkAppBar = const AppBarTheme(
       elevation: 0,
       centerTitle: true,
       backgroundColor: Colors.transparent,
